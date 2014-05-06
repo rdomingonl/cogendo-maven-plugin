@@ -53,10 +53,12 @@ public class CoGenDoMojo extends AbstractMojo {
 	private File outputDirectory;
 
 	public void execute() throws MojoExecutionException {
-		getLog().info("template:"+template);
-		getLog().info("target:"+target);
-		getLog().info("groupId:"+groupId);
-		getLog().info("artifactId:"+artifactId);
+		getLog().info("-----------------------------");
+		getLog().info("template   : "+template);
+		getLog().info("target     : "+target);
+		getLog().info("groupId    : "+groupId);
+		getLog().info("artifactId : "+artifactId);
+		getLog().info("-----------------------------");
 		// File f = outputDirectory;
 		//
 		// if (!f.exists()) {
